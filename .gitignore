@@ -1,0 +1,52 @@
+# Model checkpoints and outputs
+layer1_model/
+layer1_model_unfrozen/
+layer2_model/
+*.safetensors
+*.bin
+pytorch_model.bin
+model.safetensors
+
+# Processed datasets
+processed_dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Training logs
+runs/
+logs/
+wandb/
